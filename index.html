@@ -1,1 +1,110 @@
-Hola mundo !!!
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body  {
+  background-image: url("paper.gif");
+  background-color: #cccccc;
+}
+
+header { display:flex;
+flex-flow: row nowrap;
+        justify-content:center;
+        align-items:center;
+       
+        width:100%;
+        background-color:orange;
+        font-size:15px;
+        }
+
+h1, h3, img {margin-left:10px; }
+
+nav { display:flex;
+flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:70px;
+    background-color:black;}
+
+.estilo1 { background-color:white;
+border-radius:10px;
+    margin:5px;
+    width:70px;
+    height:30px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:orange;
+           }
+
+aside { background-color:pink;
+display:flex;
+    flex-flow:column nowrap;
+    width:15%;
+   
+}
+
+.estilo2 { background-color:white;
+border-radius:10px;
+    margin:5px;
+    width:70px;
+    height:30px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:orange;
+    }
+
+.estilo3 { display:flex;
+flex-flow: row wrap;
+        width:100vw;}
+
+aside { width:15vw; }
+section { width:85vw}
+
+</style>
+</head>
+<body>
+<header>
+<h1>FlexBox</h1>
+        <h3>Demo de cajas flexibles</h3>
+        <img  src="https://static.vecteezy.com/system/resources/previews/015/025/329/non_2x/facebook-instagram-and-twitter-icon-free-vector.jpg" width=200px height=100px>
+</header>
+   <nav>
+    <span>columna lateral</span>
+        <div class="estilo1">link 1</div>
+         <div class="estilo1">link 2</div>
+         <div class="estilo1">link 3</div>
+         <div class="estilo1">link 4</div>
+   
+   
+   </nav>
+<div class="estilo3">
+<aside>
+columna lateral
+  <div class="estilo2">link 1</div>
+  <div class="estilo2">link 2</div>
+  <div class="estilo2">link 3</div>
+  <div class="estilo2">link 4</div>
+
+</aside>
+<section>
+<img src="https://placekitten.com/200/139" width=120 height=120px>
+<img src="https://placekitten.com/200/139" width=120 height=120px>
+<img src="https://placekitten.com/200/139" width=120 height=120px>
+<img src="https://placekitten.com/200/139" width=120 height=120px>
+<img src="https://placekitten.com/200/139" width=120 height=120px>
+<img src="https://placekitten.com/200/139" width=120 height=120px>
+<img src="https://placekitten.com/200/139" width=120 height=120px>
+<img src="https://placekitten.com/200/139" width=120 height=120px>
+<img src="https://placekitten.com/200/139" width=120 height=120px>
+
+
+
+</section>
+</div>
+</body>
+</html>
